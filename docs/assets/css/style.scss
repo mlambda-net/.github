@@ -2,9 +2,9 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+$primary: #b12b24;
+$primary-dark: #760504;
+$secondary: #ffcd15;
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #fff6f8;
@@ -17,8 +17,8 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: Noto+Sans, Arial, sans-serif, -apple-system;
+$font-family-heading: Roboto, serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
@@ -59,7 +59,7 @@ $sub-footer-text-color: $white;
 // Pages
 @import "pages/page-home";
 @import "pages/page-teams";
-@import "pages/page-service";
+@import "pages/page-products";
 
 body {
   font-size: 16px;
